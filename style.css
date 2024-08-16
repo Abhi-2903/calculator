@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+.text-center{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container{
+
+}
+.keys{
+    margin:6px;
+    padding: 25px;
+    border: 2px solid grey;
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px 1px rgb(82, 77, 77);
+    font-family: 'Orbitron', sans-serif;
+}
+.m-w-20{
+    max-width: 25%; 
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.keys:hover{
+    cursor: pointer;
+}
+.display{
+    margin-bottom: 8px;
+}
+.display input{
+    padding:10px;
+    width: 90%;
+    border:2px solid grey;
+    font-size:1.5rem;
+    font-weight:bold
+}
+.plus{
+    background-color: #eeff00;
+}
