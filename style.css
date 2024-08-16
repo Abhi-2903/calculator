@@ -4,6 +4,11 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .container{
+    border: 10px solid grey;
+    width: 50%;
+    border-radius:50px;
+    padding:20px
+    
 
 }
 .keys{
@@ -15,7 +20,7 @@
     font-family: 'Orbitron', sans-serif;
 }
 .m-w-20{
-    max-width: 25%; 
+    max-width: 24%; 
 }
 .mx-auto{
     margin-left: auto;
@@ -29,11 +34,14 @@
 }
 .display input{
     padding:10px;
-    width: 90%;
-    border:2px solid grey;
+    width: 85%;
+    border:5px solid grey;
     font-size:1.5rem;
     font-weight:bold
 }
 .plus{
     background-color: #eeff00;
+}
+.button{
+    width: auto;
 }

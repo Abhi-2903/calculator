@@ -1,5 +1,5 @@
 let string = "";
-let buttons = document.querySelectorAll('.button');
+let buttons = document.querySelectorAll('.keys');
 Array.from(buttons).forEach((button) => {
     button.addEventListener('click', (e) => {
         const display = document.querySelector(".displays");
@@ -12,7 +12,7 @@ Array.from(buttons).forEach((button) => {
                 display.value = "Error";
                 string = "";
             }
-        } else if (e.target.innerHTML === '.') {
+        } else if (e.target.innerHTML === 'c') {
             string = "";
             display.value = string;
         } else {
