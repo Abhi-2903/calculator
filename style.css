@@ -50,19 +50,18 @@
         font-size: 1.5rem;
     }
     .container {
-        padding: 15px;
+        padding: 5px;
         border-radius: 20px;
     }
-
     .keys {        
         font-size: 1rem; 
         padding: 5%;
-        margin:5px;
+        margin:2px;
     }
 
     .display input {
         width: 100%; /* Full width input */
-        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        font-size: 1rem; /* Adjust font size for smaller screens */
         padding: 0%;
     }
 
@@ -70,6 +69,8 @@
         display: flex;
         justify-content: space-between; /* Distribute buttons evenly */
         flex-wrap: wrap; /* Wrap buttons to new lines as needed */
+        padding: 2px;
+        margin: 10px;
     }
 
 }
