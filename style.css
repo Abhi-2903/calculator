@@ -45,7 +45,7 @@
 .button{
     width: auto;
 }
-@media (max-width: 1068px) {
+@media (max-width: 2068px) {
     h1{
         font-size: 1.5rem;
     }
@@ -56,19 +56,19 @@
     .keys {        
         font-size: 1.3rem; 
         padding: 6%;
-        margin:4px;
+        margin:7px;
     }
 
     .display input {
-        width: 100%; /* Full width input */
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        width: 100%; 
+        font-size: 1rem; 
         padding: 0%;
     }
 
     .button {
         display: flex;
-        justify-content: space-between; /* Distribute buttons evenly */
-        flex-wrap: wrap; /* Wrap buttons to new lines as needed */
+        justify-content: space-between;
+        flex-wrap: wrap; 
         padding: 2px;
         margin: 10px;
     }
